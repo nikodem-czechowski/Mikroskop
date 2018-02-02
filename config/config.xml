@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>
+<microscope name="Nazwa mikroskopu">
+	<output number="0" type="demoStage"/>
+	<input number="0" type="demoAPD"/>
+	<input number="1" type="demoAPD"/>
+	<!--<input number="2" type="demoSpectrometer"/>
+	<io number="0" type="demoStageAndAPD"/>-->
+</microscope>
+<repo>
+	<demoStage>
+		<type>positioner</type>
+		<name>Demo Nanopositioner Stage 1.0</name>
+		<VIpath>..\drivers\DEMO_positioner.vit</VIpath>
+		<stage>
+			<axis name="X"><range>100</range><unit>um</unit></axis>
+			<axis name="Y"><range>100</range><unit>um</unit></axis>
+			<axis name="Z"><range>20</range><unit>um</unit></axis>
+		</stage>
+	</demoStage>
+	<demoAPD>
+		<type>acquisition</type>
+		<name>Demo Avalanche Photodiode 1.0</name>
+		<VIpath>..\drivers\DEMO_APD.vit</VIpath>
+		<returns>int</returns>
+	</demoAPD>
+	<demoSpectrometer>
+		<type>acquisition</type>
+		<name>Demo Spectrometer 1.0</name>
+		<VIpath>..\drivers\DEMO_Spectrometer.vit</VIpath>
+		<returns>array of int</returns>
+	</demoSpectrometer>
+	<demoStageAndAPD>
+		<type>synchronized</type>
+		<name>Demo Nanopositioner Stage synchronized with APD 1.0</name>
+		<VIpath>..\drivers\DEMO_synchronized.vit</VIpath>
+		<stage>
+			<axis name="X"><range>100</range><unit>um</unit></axis>
+			<axis name="Y"><range>100</range><unit>um</unit></axis>
+			<axis name="Z"><range>20</range><unit>um</unit></axis>
+		</stage>
+		<returns>array of int</returns>
+	</demoStageAndAPD>
+</repo>
+</file>

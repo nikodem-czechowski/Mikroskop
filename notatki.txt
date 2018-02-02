@@ -1,0 +1,7 @@
+1. Pêtla pomiarowa - architektura producent konsument
+2. Maszyna stanów
+
+
+
+TO DO
+
