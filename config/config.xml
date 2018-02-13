@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <file>
-<microscope name="Nazwa mikroskopu">
+<microscope name="Mikroskop konfokalny IChF PAN">
 	<output number="0" type="demoStage"/>
-	<input number="0" type="demoAPD"/>
+	<input number="0" type="singleAPD"/>
 	<input number="1" type="demoAPD"/>
 	<!--<input number="2" type="demoSpectrometer"/>
 	<io number="0" type="demoStageAndAPD"/>-->
 </microscope>
 <repo>
+	<singleAPD>
+		<type>acquisition</type>
+		<name>Single APD 1.0</name>
+		<VIpath>..\drivers\SINGLE_APD.vit</VIpath>
+		<returns>int</returns>
+	</singleAPD>
 	<demoStage>
 		<type>positioner</type>
 		<name>Demo Nanopositioner Stage 1.0</name>
