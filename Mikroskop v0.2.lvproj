@@ -11,8 +11,22 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
+		<Item Name="PI Stage demo.vi" Type="VI" URL="../PI Stage demo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="ATZ.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Limits.llb/ATZ.vi"/>
+				<Item Name="Close connection if open.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Communication.llb/Close connection if open.vi"/>
+				<Item Name="CST.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Special command.llb/CST.vi"/>
+				<Item Name="Define connected axes.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/Define connected axes.vi"/>
+				<Item Name="INI.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Special command.llb/INI.vi"/>
+				<Item Name="MOV.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/MOV.vi"/>
+				<Item Name="PI Open Interface of one system.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
+				<Item Name="POS?.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/POS?.vi"/>
+				<Item Name="SAI?.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/SAI?.vi"/>
+				<Item Name="VEL.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/VEL.vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
 				<Item Name="DAQmx Create AI Channel TEDS(sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel TEDS(sub).vi"/>
@@ -152,11 +166,52 @@
 				<Item Name="DAQmx Timing (Sample Clock).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Sample Clock).vi"/>
 				<Item Name="DAQmx Timing (Use Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing (Use Waveform).vi"/>
 				<Item Name="DAQmx Timing.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing.vi"/>
+				<Item Name="Open Serial Driver.vi" Type="VI" URL="/&lt;vilib&gt;/instr/_sersup.llb/Open Serial Driver.vi"/>
+				<Item Name="Serial Port Init.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Init.vi"/>
+				<Item Name="Serial Port Read.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/Serial.llb/Serial Port Read.vi"/>
+				<Item Name="Serial Port Write.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Serial Port Write.vi"/>
+				<Item Name="serpConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/serial.llb/serpConfig.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
-			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/daqmx.rc"/>
+			<Item Name="#7.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/#7.vi"/>
+			<Item Name="#24.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/#24.vi"/>
+			<Item Name="*IDN?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/*IDN?.vi"/>
+			<Item Name="*IDN?.vi" Type="VI" URL="../../../../../Program Files/PI/E-710/E710_GCS_LabView/Low Level/General command.llb/*IDN?.vi"/>
+			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Assign values from string to axes.vi"/>
+			<Item Name="ATZ.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Limits.llb/ATZ.vi"/>
+			<Item Name="Build command substring.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Build command substring.vi"/>
+			<Item Name="Build query command substring.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Build query command substring.vi"/>
+			<Item Name="Close connection if open.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/Close connection if open.vi"/>
+			<Item Name="Commanded axes connected?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Commanded axes connected?.vi"/>
+			<Item Name="Commanded stage name available?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Commanded stage name available?.vi"/>
+			<Item Name="Controller names.ctl" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/Controller names.ctl"/>
+			<Item Name="CST.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/CST.vi"/>
+			<Item Name="Define connected axes.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/Define connected axes.vi"/>
+			<Item Name="ERR?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/ERR?.vi"/>
+			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/GCSTranslator DLL Functions.vi"/>
+			<Item Name="GCSTranslator.dll" Type="Document" URL="../drivers — kopia/PI GCS Low Level VIs/GCSTranslator.dll"/>
+			<Item Name="Get arrays without blanks.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Get arrays without blanks.vi"/>
+			<Item Name="Get lines from string.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Get lines from string.vi"/>
+			<Item Name="Global1.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/Global1.vi"/>
+			<Item Name="Global2.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/Global2.vi"/>
+			<Item Name="INI.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/INI.vi"/>
+			<Item Name="Longlasting one-axis command.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Longlasting one-axis command.vi"/>
+			<Item Name="MOV.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/MOV.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/PI Open Interface of one system.vi"/>
+			<Item Name="PI Receive String.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/PI Receive String.vi"/>
+			<Item Name="PI ReceiveNCharacters RS232.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/PI ReceiveNCharacters RS232.vi"/>
+			<Item Name="PI ReceiveString GPIB.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/PI ReceiveString GPIB.vi"/>
+			<Item Name="PI Send String.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/PI Send String.vi"/>
+			<Item Name="POS?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/POS?.vi"/>
+			<Item Name="SAI?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/SAI?.vi"/>
+			<Item Name="VEL.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/VEL.vi"/>
+			<Item Name="VST?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/VST?.vi"/>
+			<Item Name="Wait for answer of longlasting command.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Wait for answer of longlasting command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
