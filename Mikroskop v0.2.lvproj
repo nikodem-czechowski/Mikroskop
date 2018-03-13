@@ -13,18 +13,6 @@
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
 		<Item Name="PI Stage demo.vi" Type="VI" URL="../PI Stage demo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="ATZ.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Limits.llb/ATZ.vi"/>
-				<Item Name="Close connection if open.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Communication.llb/Close connection if open.vi"/>
-				<Item Name="CST.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Special command.llb/CST.vi"/>
-				<Item Name="Define connected axes.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/Define connected axes.vi"/>
-				<Item Name="INI.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Special command.llb/INI.vi"/>
-				<Item Name="MOV.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/MOV.vi"/>
-				<Item Name="PI Open Interface of one system.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
-				<Item Name="POS?.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/POS?.vi"/>
-				<Item Name="SAI?.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/SAI?.vi"/>
-				<Item Name="VEL.vi" Type="VI" URL="/&lt;userlib&gt;/E710_GCS/Low Level/General command.llb/VEL.vi"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
@@ -178,7 +166,6 @@
 			<Item Name="#7.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/#7.vi"/>
 			<Item Name="#24.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/#24.vi"/>
 			<Item Name="*IDN?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/*IDN?.vi"/>
-			<Item Name="*IDN?.vi" Type="VI" URL="../../../../../Program Files/PI/E-710/E710_GCS_LabView/Low Level/General command.llb/*IDN?.vi"/>
 			<Item Name="Assign values from string to axes.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Assign values from string to axes.vi"/>
 			<Item Name="ATZ.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Limits.llb/ATZ.vi"/>
 			<Item Name="Build command substring.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Build command substring.vi"/>
