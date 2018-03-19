@@ -189,6 +189,7 @@
 			<Item Name="Joystick_Operation.vi" Type="VI" URL="../GCS_LabVIEW/Joystick_Operation.vi"/>
 			<Item Name="PI Terminal.vi" Type="VI" URL="../GCS_LabVIEW/PI Terminal.vi"/>
 		</Item>
+		<Item Name="Count.vi" Type="VI" URL="../Count.vi"/>
 		<Item Name="Init_PCI6602_Counter.vi" Type="VI" URL="../Init_PCI6602_Counter.vi"/>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
 		<Item Name="PI E710 Stage.lvlib" Type="Library" URL="../PI E710 Stage.lvlib"/>
