@@ -10,7 +10,187 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="GCS_LabVIEW" Type="Folder">
+			<Item Name="Low Level" Type="Folder">
+				<Item Name="Communication" Type="Folder">
+					<Item Name="Close connection if open.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/Close connection if open.vi"/>
+					<Item Name="Find baudrate.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/Find baudrate.vi"/>
+					<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/GCSTranslator DLL Functions.vi"/>
+					<Item Name="Global1.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/Global1.vi"/>
+					<Item Name="PI Ask for Communication Parameters.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI Ask for Communication Parameters.vi"/>
+					<Item Name="PI Open Interface of one system.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI Open Interface of one system.vi"/>
+					<Item Name="PI Open Interface.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI Open Interface.vi"/>
+					<Item Name="PI Receive String.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI Receive String.vi"/>
+					<Item Name="PI ReceiveNCharacters RS232.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI ReceiveNCharacters RS232.vi"/>
+					<Item Name="PI ReceiveString GPIB.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI ReceiveString GPIB.vi"/>
+					<Item Name="PI Send String.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Communication.llb/PI Send String.vi"/>
+				</Item>
+				<Item Name="File handling" Type="Folder">
+					<Item Name="GetDataFormat.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/File handling.llb/GetDataFormat.vi"/>
+					<Item Name="TableIO.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/File handling.llb/TableIO.vi"/>
+				</Item>
+				<Item Name="General command" Type="Folder">
+					<Item Name="*IDN?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/*IDN?.vi"/>
+					<Item Name="Controller names.ctl" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/Controller names.ctl"/>
+					<Item Name="Define connected axes.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/Define connected axes.vi"/>
+					<Item Name="Define connected systems.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/Define connected systems.vi"/>
+					<Item Name="ERR?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/ERR?.vi"/>
+					<Item Name="Global2.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/Global2.vi"/>
+					<Item Name="HLP?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/HLP?.vi"/>
+					<Item Name="HLT.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/HLT.vi"/>
+					<Item Name="HPA?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/HPA?.vi"/>
+					<Item Name="MOV.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/MOV.vi"/>
+					<Item Name="MOV?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/MOV?.vi"/>
+					<Item Name="MVR.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/MVR.vi"/>
+					<Item Name="ONT?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/ONT?.vi"/>
+					<Item Name="POS?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/POS?.vi"/>
+					<Item Name="SAI?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SAI?.vi"/>
+					<Item Name="SPA?_Hex.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SPA?_Hex.vi"/>
+					<Item Name="SPA?_Hex_String.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SPA?_Hex_String.vi"/>
+					<Item Name="SPA_Hex.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SPA_Hex.vi"/>
+					<Item Name="SPA_Hex_String.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SPA_Hex_String.vi"/>
+					<Item Name="STP.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/STP.vi"/>
+					<Item Name="SVO.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SVO.vi"/>
+					<Item Name="SVO?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/SVO?.vi"/>
+					<Item Name="VEL.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/VEL.vi"/>
+					<Item Name="VEL?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/General command.llb/VEL?.vi"/>
+				</Item>
+				<Item Name="Joystick" Type="Folder">
+					<Item Name="Calculate joystick scaling.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Joystick.llb/Calculate joystick scaling.vi"/>
+					<Item Name="Read joystick.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Joystick.llb/Read joystick.vi"/>
+					<Item Name="Scale joystick data.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Joystick.llb/Scale joystick data.vi"/>
+				</Item>
+				<Item Name="Limits" Type="Folder">
+					<Item Name="ATZ.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Limits.llb/ATZ.vi"/>
+					<Item Name="DFH.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Limits.llb/DFH.vi"/>
+					<Item Name="DFH?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Limits.llb/DFH?.vi"/>
+					<Item Name="GOH.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Limits.llb/GOH.vi"/>
+					<Item Name="TMN?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Limits.llb/TMN?.vi"/>
+					<Item Name="TMX?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Limits.llb/TMX?.vi"/>
+				</Item>
+				<Item Name="Old commands" Type="Folder">
+					<Item Name="#5_old.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Old commands.llb/#5_old.vi"/>
+					<Item Name="NMOV.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Old commands.llb/NMOV.vi"/>
+					<Item Name="NMVR.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Old commands.llb/NMVR.vi"/>
+					<Item Name="Wait for hexapod system axes to stop.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Old commands.llb/Wait for hexapod system axes to stop.vi"/>
+				</Item>
+				<Item Name="Optical or Analog Input" Type="Folder">
+					<Item Name="TAD?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Optical or Analog Input.llb/TAD?.vi"/>
+					<Item Name="TNS?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Optical or Analog Input.llb/TNS?.vi"/>
+					<Item Name="TSC?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Optical or Analog Input.llb/TSC?.vi"/>
+					<Item Name="TSP?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Optical or Analog Input.llb/TSP?.vi"/>
+				</Item>
+				<Item Name="PZT voltage" Type="Folder">
+					<Item Name="DPO.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/PZT voltage.llb/DPO.vi"/>
+					<Item Name="DTC.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/PZT voltage.llb/DTC.vi"/>
+					<Item Name="SVA.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/PZT voltage.llb/SVA.vi"/>
+					<Item Name="SVA?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/PZT voltage.llb/SVA?.vi"/>
+					<Item Name="SVR.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/PZT voltage.llb/SVR.vi"/>
+					<Item Name="VOL?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/PZT voltage.llb/VOL?.vi"/>
+				</Item>
+				<Item Name="Special command" Type="Folder">
+					<Item Name="#5.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/#5.vi"/>
+					<Item Name="#7.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/#7.vi"/>
+					<Item Name="#24.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/#24.vi"/>
+					<Item Name="CCL.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/CCL.vi"/>
+					<Item Name="CCL?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/CCL?.vi"/>
+					<Item Name="CST.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/CST.vi"/>
+					<Item Name="CST?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/CST?.vi"/>
+					<Item Name="DFF.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/DFF.vi"/>
+					<Item Name="DFF?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/DFF?.vi"/>
+					<Item Name="DRC.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/DRC.vi"/>
+					<Item Name="DRC?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/DRC?.vi"/>
+					<Item Name="DRR?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/DRR?.vi"/>
+					<Item Name="IMP.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/IMP.vi"/>
+					<Item Name="IMP?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/IMP?.vi"/>
+					<Item Name="INI.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/INI.vi"/>
+					<Item Name="RPA.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/RPA.vi"/>
+					<Item Name="SAI.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/SAI.vi"/>
+					<Item Name="SEP?_Hex.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/SEP?_Hex.vi"/>
+					<Item Name="SEP_Hex.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/SEP_Hex.vi"/>
+					<Item Name="STA?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/STA?.vi"/>
+					<Item Name="STE.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/STE.vi"/>
+					<Item Name="STE?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/STE?.vi"/>
+					<Item Name="TNR?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/TNR?.vi"/>
+					<Item Name="TPC?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/TPC?.vi"/>
+					<Item Name="TVI?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/TVI?.vi"/>
+					<Item Name="VST?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/VST?.vi"/>
+					<Item Name="WPA.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Special command.llb/WPA.vi"/>
+				</Item>
+				<Item Name="Support" Type="Folder">
+					<Item Name="Analyse input string for terminal.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Analyse input string for terminal.vi"/>
+					<Item Name="Assign booleans from string to axes.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Assign booleans from string to axes.vi"/>
+					<Item Name="Assign DRC values.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Assign DRC values.vi"/>
+					<Item Name="Assign SPA values from string to axes.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Assign SPA values from string to axes.vi"/>
+					<Item Name="Assign SPA_Hex values from string to axes.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Assign SPA_Hex values from string to axes.vi"/>
+					<Item Name="Assign values from string to axes.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Assign values from string to axes.vi"/>
+					<Item Name="Build channel query command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build channel query command substring.vi"/>
+					<Item Name="Build command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build command substring.vi"/>
+					<Item Name="Build num command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build num command substring.vi"/>
+					<Item Name="Build query command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build query command substring.vi"/>
+					<Item Name="Build SPA query command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build SPA query command substring.vi"/>
+					<Item Name="Build SPA_Hex command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build SPA_Hex command substring.vi"/>
+					<Item Name="Build SPA_Hex query command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build SPA_Hex query command substring.vi"/>
+					<Item Name="Build SPA_Hex_String command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build SPA_Hex_String command substring.vi"/>
+					<Item Name="Build SPA_String command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build SPA_String command substring.vi"/>
+					<Item Name="Build stringplusnum substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build stringplusnum substring.vi"/>
+					<Item Name="Build WAV command substring.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Build WAV command substring.vi"/>
+					<Item Name="Commanded axes connected?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Commanded axes connected?.vi"/>
+					<Item Name="Commanded stage name available?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Commanded stage name available?.vi"/>
+					<Item Name="Convert num array to string.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Convert num array to string.vi"/>
+					<Item Name="Count occurrences in string.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Count occurrences in string.vi"/>
+					<Item Name="Define axes to command from boolean array.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Define axes to command from boolean array.vi"/>
+					<Item Name="GCSTranslateError.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/GCSTranslateError.vi"/>
+					<Item Name="General wait for movement to stop.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/General wait for movement to stop.vi"/>
+					<Item Name="Get arrays without blanks.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Get arrays without blanks.vi"/>
+					<Item Name="Get lines and values from string.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Get lines and values from string.vi"/>
+					<Item Name="Get lines from string.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Get lines from string.vi"/>
+					<Item Name="Get string array size without blanks.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Get string array size without blanks.vi"/>
+					<Item Name="How often does string contain regular expression?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/How often does string contain regular expression?.vi"/>
+					<Item Name="Longlasting one-axis command.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Longlasting one-axis command.vi"/>
+					<Item Name="Manual VMO.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Manual VMO.vi"/>
+					<Item Name="Return single characters from string.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Return single characters from string.vi"/>
+					<Item Name="Round with options.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Round with options.vi"/>
+					<Item Name="Select axis.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Select axis.vi"/>
+					<Item Name="Select values for chosen axes.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Select values for chosen axes.vi"/>
+					<Item Name="Select with boolean array input.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Select with boolean array input.vi"/>
+					<Item Name="Selection to String array.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Selection to String array.vi"/>
+					<Item Name="Substract axes array subset from axes array.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Substract axes array subset from axes array.vi"/>
+					<Item Name="Unbunde/bundle interface clusters for PI Terminal.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Unbunde/bundle interface clusters for PI Terminal.vi"/>
+					<Item Name="Wait for answer of longlasting command.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Wait for answer of longlasting command.vi"/>
+					<Item Name="Wait for axes to stop.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/Support.llb/Wait for axes to stop.vi"/>
+				</Item>
+				<Item Name="WaveGenerator" Type="Folder">
+					<Item Name="#9.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/#9.vi"/>
+					<Item Name="DDL.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/DDL.vi"/>
+					<Item Name="DDL?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/DDL?.vi"/>
+					<Item Name="GWD?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/GWD?.vi"/>
+					<Item Name="TLT?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/TLT?.vi"/>
+					<Item Name="TWC.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/TWC.vi"/>
+					<Item Name="TWG?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/TWG?.vi"/>
+					<Item Name="TWS.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/TWS.vi"/>
+					<Item Name="WAV.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WAV.vi"/>
+					<Item Name="WAV?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WAV?.vi"/>
+					<Item Name="WCL.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WCL.vi"/>
+					<Item Name="WGO.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WGO.vi"/>
+					<Item Name="WGO?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WGO?.vi"/>
+					<Item Name="WGR.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WGR.vi"/>
+					<Item Name="WMS.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WMS.vi"/>
+					<Item Name="WMS?.vi" Type="VI" URL="../GCS_LabVIEW/Low Level/WaveGenerator.llb/WMS?.vi"/>
+				</Item>
+				<Item Name="GCSTranslator.dll" Type="Document" URL="../GCS_LabVIEW/Low Level/GCSTranslator.dll"/>
+				<Item Name="Version.txt" Type="Document" URL="../GCS_LabVIEW/Low Level/Version.txt"/>
+			</Item>
+			<Item Name="E710_All_VIs.vi" Type="VI" URL="../GCS_LabVIEW/E710_All_VIs.vi"/>
+			<Item Name="E710_Configuration_Setup.vi" Type="VI" URL="../GCS_LabVIEW/E710_Configuration_Setup.vi"/>
+			<Item Name="E710_Sample_Application_1.vi" Type="VI" URL="../GCS_LabVIEW/E710_Sample_Application_1.vi"/>
+			<Item Name="E710_Simple_Test.vi" Type="VI" URL="../GCS_LabVIEW/E710_Simple_Test.vi"/>
+			<Item Name="E710_WaveGenerator_Sample_Program.vi" Type="VI" URL="../GCS_LabVIEW/E710_WaveGenerator_Sample_Program.vi"/>
+			<Item Name="Joystick_Operation.vi" Type="VI" URL="../GCS_LabVIEW/Joystick_Operation.vi"/>
+			<Item Name="PI Terminal.vi" Type="VI" URL="../GCS_LabVIEW/PI Terminal.vi"/>
+		</Item>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
+		<Item Name="PI E710 Stage.lvlib" Type="Library" URL="../../PI E710 Stage.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bytes At Serial Port.vi" Type="VI" URL="/&lt;vilib&gt;/INSTR/SERIAL.LLB/Bytes At Serial Port.vi"/>
@@ -174,6 +354,7 @@
 			<Item Name="Commanded stage name available?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Commanded stage name available?.vi"/>
 			<Item Name="Controller names.ctl" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/Controller names.ctl"/>
 			<Item Name="CST.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/CST.vi"/>
+			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/daqmx.rc"/>
 			<Item Name="Define connected axes.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/Define connected axes.vi"/>
 			<Item Name="ERR?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/ERR?.vi"/>
 			<Item Name="GCSTranslator DLL Functions.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Communication.llb/GCSTranslator DLL Functions.vi"/>
@@ -198,6 +379,9 @@
 			<Item Name="VEL.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/General command.llb/VEL.vi"/>
 			<Item Name="VST?.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Special command.llb/VST?.vi"/>
 			<Item Name="Wait for answer of longlasting command.vi" Type="VI" URL="../drivers — kopia/PI GCS Low Level VIs/Support.llb/Wait for answer of longlasting command.vi"/>
+			<Item Name="winmm.dll" Type="Document" URL="winmm.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
