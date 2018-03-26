@@ -191,8 +191,10 @@
 		</Item>
 		<Item Name="Count.vi" Type="VI" URL="../Count.vi"/>
 		<Item Name="Init_PCI6602_Counter.vi" Type="VI" URL="../Init_PCI6602_Counter.vi"/>
+		<Item Name="Main_cluster.ctl" Type="VI" URL="../Main_cluster.ctl"/>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
 		<Item Name="PI E710 Stage.lvlib" Type="Library" URL="../PI E710 Stage.lvlib"/>
+		<Item Name="Quit all tasks.vi" Type="VI" URL="../Quit all tasks.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
