@@ -195,6 +195,7 @@
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
 		<Item Name="PI E710 Stage.lvlib" Type="Library" URL="../PI E710 Stage.lvlib"/>
 		<Item Name="Quit all tasks.vi" Type="VI" URL="../Quit all tasks.vi"/>
+		<Item Name="reset buttons.vi" Type="VI" URL="../reset buttons.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -393,6 +394,7 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
+			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/daqmx.rc"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
