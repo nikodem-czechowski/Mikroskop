@@ -190,12 +190,16 @@
 			<Item Name="PI Terminal.vi" Type="VI" URL="../GCS_LabVIEW/PI Terminal.vi"/>
 		</Item>
 		<Item Name="Count.vi" Type="VI" URL="../Count.vi"/>
+		<Item Name="Get cursor position.vi" Type="VI" URL="../Get cursor position.vi"/>
 		<Item Name="Init_PCI6602_Counter.vi" Type="VI" URL="../Init_PCI6602_Counter.vi"/>
 		<Item Name="Main_cluster.ctl" Type="VI" URL="../Main_cluster.ctl"/>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
 		<Item Name="PI E710 Stage.lvlib" Type="Library" URL="../PI E710 Stage.lvlib"/>
 		<Item Name="Quit all tasks.vi" Type="VI" URL="../Quit all tasks.vi"/>
 		<Item Name="reset buttons.vi" Type="VI" URL="../reset buttons.vi"/>
+		<Item Name="Save map as png.vi" Type="VI" URL="../Save map as png.vi"/>
+		<Item Name="Scan_1.vi" Type="VI" URL="../Scan_1.vi"/>
+		<Item Name="Set Acquisiton Time.vi" Type="VI" URL="../Set Acquisiton Time.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -394,7 +398,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
-			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/daqmx.rc"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
