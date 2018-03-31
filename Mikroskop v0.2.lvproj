@@ -191,9 +191,12 @@
 		</Item>
 		<Item Name="Count.vi" Type="VI" URL="../Count.vi"/>
 		<Item Name="Get cursor position.vi" Type="VI" URL="../Get cursor position.vi"/>
+		<Item Name="Get stage position.vi" Type="VI" URL="../Get stage position.vi"/>
 		<Item Name="Init_PCI6602_Counter.vi" Type="VI" URL="../Init_PCI6602_Counter.vi"/>
 		<Item Name="Main_cluster.ctl" Type="VI" URL="../Main_cluster.ctl"/>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
+		<Item Name="Move cursor to position.vi" Type="VI" URL="../Move cursor to position.vi"/>
+		<Item Name="Move to cursor.vi" Type="VI" URL="../Move to cursor.vi"/>
 		<Item Name="PI E710 Stage.lvlib" Type="Library" URL="../PI E710 Stage.lvlib"/>
 		<Item Name="Quit all tasks.vi" Type="VI" URL="../Quit all tasks.vi"/>
 		<Item Name="reset buttons.vi" Type="VI" URL="../reset buttons.vi"/>
