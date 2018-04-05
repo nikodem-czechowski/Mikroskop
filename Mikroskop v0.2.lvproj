@@ -193,6 +193,7 @@
 		<Item Name="Get cursor position.vi" Type="VI" URL="../Get cursor position.vi"/>
 		<Item Name="Get stage position.vi" Type="VI" URL="../Get stage position.vi"/>
 		<Item Name="Init_PCI6602_Counter.vi" Type="VI" URL="../Init_PCI6602_Counter.vi"/>
+		<Item Name="Initialize shutter.vi" Type="VI" URL="../Initialize shutter.vi"/>
 		<Item Name="Main_cluster.ctl" Type="VI" URL="../Main_cluster.ctl"/>
 		<Item Name="Main_TopLevel_1.vi" Type="VI" URL="../Main_TopLevel_1.vi"/>
 		<Item Name="Measure timetrace.vi" Type="VI" URL="../Measure timetrace.vi"/>
