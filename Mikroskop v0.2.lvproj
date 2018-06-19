@@ -213,6 +213,7 @@
 		<Item Name="Shutter control.vi" Type="VI" URL="../Shutter control.vi"/>
 		<Item Name="Viewer_TopLevel_1.vi" Type="VI" URL="../Viewer_TopLevel_1.vi"/>
 		<Item Name="Move stage.vi" Type="VI" URL="../Move stage.vi"/>
+		<Item Name="PI Write XY position to file.vi" Type="VI" URL="../PI Write XY position to file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
