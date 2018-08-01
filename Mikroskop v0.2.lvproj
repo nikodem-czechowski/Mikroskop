@@ -496,6 +496,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="daqmx.rc" Type="Document" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2010/resource/objmgr/daqmx.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
